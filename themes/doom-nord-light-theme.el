@@ -39,7 +39,7 @@ determine the exact padding."
   "A light theme inspired by Nord-Light."
 
   ;; name        default   256       16
-  ((bg         '("#E5E9F0" nil       nil))
+  ((bg         '("#ECEFF4" nil       nil))
    (bg-alt     '("#D8DEE9" nil       nil))
    (base0      '("#F0F4FC" "black"   "black"))
    (base1      '("#E3EAF5" "#1e1e1e" "brightblack"))
