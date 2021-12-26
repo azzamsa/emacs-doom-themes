@@ -117,7 +117,8 @@ determine the exact padding."
 
   ;;;; Base theme face overrides
   (((font-lock-comment-face &override)
-    :background (if doom-nord-light-comment-bg (doom-lighten bg 0.05)))
+    :background (if doom-nord-light-comment-bg (doom-lighten bg 0.05))
+    :slant 'italic)
    ((line-number &override) :foreground (doom-lighten 'base5 0.2))
    ((line-number-current-line &override) :foreground base7)
    (internal-border :foreground (doom-blend blue bg 0.2) :background (doom-blend blue bg 0.2))
